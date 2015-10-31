@@ -97,12 +97,12 @@ ol li
 
 #header
 { width: 952px;
-  height: 145px;}
+  height: 75px;}
 
 #logo
 { width: 950px;
   float: left;
-  height: 100px;
+  height: 30px;
   background: transparent;
   padding: 0 0 0px 10px;}
 
@@ -212,6 +212,22 @@ ul#menu li a:hover
 { margin: 2px 0 22px 0px;}
 
 #content ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+#content_full
+{ text-align: left;
+  width: 930px;
+  padding: 25px 0 5px 25px;
+  margin: 0;}
+
+#content_full ul
+{ margin: 2px 0 22px 0px;}
+
+#content_full ul li
 { list-style-type: none;
   background: url(bullet.png) no-repeat;
   margin: 0 0 6px 0; 
