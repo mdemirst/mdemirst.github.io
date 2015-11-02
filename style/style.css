@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F7F7F7 url(pattern.png) fixed;
+  background-color: #F8F8F8;
   color: #555;}
 
 p
@@ -92,15 +92,15 @@ ol li
   margin-right: auto;}
 
 #main
-{ width: 950px;
+{ width: 750px;
   margin: 20px auto;}
 
 #header
-{ width: 952px;
+{ width: 752px;
   height: 75px;}
 
 #logo
-{ width: 950px;
+{ width: 750px;
   float: left;
   height: 30px;
   background: transparent;
@@ -168,7 +168,7 @@ ul#menu li a:hover
 { color: #F14E23;}
 
 #site_content
-{ width: 950px;
+{ width: 750px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0;
@@ -204,7 +204,7 @@ ul#menu li a:hover
 
 #content
 { text-align: left;
-  width: 630px;
+  width: 430px;
   padding: 25px 0 5px 25px;
   margin: 0;}
 
@@ -220,7 +220,7 @@ ul#menu li a:hover
 
 #content_full
 { text-align: left;
-  width: 930px;
+  width: 700px;
   padding: 25px 0 5px 25px;
   margin: 0;}
 
