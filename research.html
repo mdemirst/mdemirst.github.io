@@ -33,11 +33,14 @@
       <div id="content_full">
         <!-- insert the page content here -->
         <p>You can read about my academic research here:</p>
+        <a name="place-detection"></a>
         <h1>Place Detection and Recognition</h1>
         <p>
           I am interested in how places are represented, detected and recognized. In our work, place is defined slightly different from the terminology: Place is a collection of temporally consecutive images in which visual content is similar. Our approach is based on representing each image as a region adjacency graph and apply graph matching techniques to temporally cluster images sequences based on graph similarity and coherency. Each detected place is represented with a so-called "Segments Summary Graph" which encodes spatio-temporal relations of segments in detected place. Our TORK paper (in Turkish) on Place Detection won <strong>"The Best Paper Award"</strong> and we have submitted another paper to ICRA.
         </p>
         <span class="center"><img src="images/place-detection-exp.png" alt="Place Detection Experimental Results" width="600" /></span>
+
+        <a name="abstraction"></a>
         <h1>Video Abstraction via Segments Summary Graphs</h1>
         <p>
           In our paper <strong>Video Summarization via Segments Summary graphs</strong> in ICCV'15 we applied our graph based place detection approach on video summarization problem and obtained results that outperforms state-of-the art summarization approaches. Video summarization is based on the coherency analysis of segmented video frames as represented by region adjacency graphs. Similar segments across consecutive region adjacency graphs are matched and tracked using an efficient graph matching technique. Shot boundaries are detected based on a coherency score that measures the appearances and disappearances of tracked segments. As such, it is possible to form a compact representation of each detected shot based on prevalent segmented regions and their relations - referred to as the "segments summary graphs". Furthermore, the segments summary graph is amenable for further semantic analysis and understanding of the scene.
